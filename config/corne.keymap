@@ -13,27 +13,27 @@
                 compatible = "zmk,combos";
                 combo_tab {
                         timeout-ms = <50>;
-                        key-positions = <12 13>;
+                        key-positions = <13 14>;
                         bindings = <&kp TAB>;
                 };
                 combo_esc {
                         timeout-ms = <50>;
-                        key-positions = <14 15>;
+                        key-positions = <15 16>;
                         bindings = <&kp ESC>;
                 };
                 combo_bspace {
                         timeout-ms = <50>;
-                        key-positions = <18 19>;
+                        key-positions = <19 20>;
                         bindings = <&kp BSPC>;
                 };
                 combo_semicolon {
                         timeout-ms = <50>;
-                        key-positions = <19 20>;
+                        key-positions = <20 21>;
                         bindings = <&kp SEMICOLON>;
                 };
                 combo_minus {
                         timeout-ms = <50>;
-                        key-positions = <20 21>;
+                        key-positions = <21 22>;
                         bindings = <&kp MINUS>;
                 };
         };
