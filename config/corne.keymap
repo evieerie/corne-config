@@ -60,9 +60,9 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-&none   &trans   &trans   &trans    &trans     &trans   &kp C_AC_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UND &none
-&none   &kp LGUI &kp LALT &kp LCTRL &kp LSHIFT &trans   &trans        &kp LEFT    &kp DOWN   &kp UP    &kp RIGHT &none 
-&none   &trans   &trans   &trans    &trans     &trans   &kp INS       &kp HOME    &kp PG_UP  &kp PG_DN &kp EN    &none
+&none   &trans   &trans   &trans    &trans     &trans   &kp C_AC_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO &none
+&none   &kp LGUI &kp LALT &kp LCTRL &kp LSHIFT &trans   &trans        &kp LEFT    &kp DOWN   &kp UP    &kp RIGHT  &none 
+&none   &trans   &trans   &trans    &trans     &trans   &kp INS       &kp HOME    &kp PG_UP  &kp PG_DN &kp END    &none
                             &kp LGUI &trans     &kp SPACE &trans &trans &trans
                         >;
                 };
