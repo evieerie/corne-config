@@ -61,9 +61,9 @@
 // |     |     |     |     |     |   |     |     |     |     |     |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-&none   &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &trans     &trans   &kp C_AC_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO &none
-&none   &kp LGUI   &kp LALT     &kp LCTRL    &kp LSHIFT &trans   &kp LEFT      &kp DOWN    &kp UP     &kp RIGHT &trans     &none
-&none   &trans     &trans       &trans       &trans     &trans   &kp INS       &kp HOME    &kp PG_UP  &kp PG_DN &kp END    &none
+&none   &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans   &kp C_AC_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO &none
+&none   &kp LGUI     &kp LALT     &kp LCTRL    &kp LSHIFT   &trans   &kp LEFT      &kp DOWN    &kp UP     &kp RIGHT &trans     &none
+&none   &bt BT_SEL   &bt BT_CLR   &trans       &trans       &trans   &kp INS       &kp HOME    &kp PG_UP  &kp PG_DN &kp END    &none
                             &trans &trans &kp SPACE   &trans &trans &trans
                         >;
                 };
