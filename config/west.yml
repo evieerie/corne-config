@@ -13,6 +13,6 @@ manifest:
       import: app/west.yml
     - name: nice-view-gifs
       remote: evieerie
-      revision: bongo-cat
+      revision: main
   self:
     path: config
