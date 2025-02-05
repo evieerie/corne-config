@@ -11,7 +11,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-gifs
+    - name: urchin-peripheral-animation
       remote: evieerie
       revision: main
   self:
