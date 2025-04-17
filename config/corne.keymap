@@ -123,9 +123,9 @@
 // |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-&none   &trans     &trans     &trans    &trans     &trans     &kp C_AC_REDO  &kp K_PASTE    &kp K_COPY   &kp K_CUT       &kp K_UNDO &none
-&none   &kp LGUI   &kp LALT   &kp LCTRL &kp LSHIFT &trans     &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &trans     &none 
-&none   &trans     &trans     &trans    &trans     &kp PIPE   &trans         &trans         &trans       &trans          &trans     &none 
+&none   &trans     &trans     &trans    &trans     &trans     &kp C_AC_REDO  &kp K_PASTE       &kp K_COPY   &kp K_CUT       &kp K_UNDO &none
+&none   &kp LGUI   &kp LALT   &kp LCTRL &kp LSHIFT &trans     &mmv MOVE_LEFT &mmv MOVE_DOWN    &mmv MOVE_UP &mmv MOVE_RIGHT &trans     &none 
+&none   &trans     &trans     &trans    &trans     &trans     &C_VOL_DN      &C_VOL_UP         &C_MUTE      &C_PREV         &C_NEXT    &none 
                              &trans &trans &trans   &mkp LCLK &mkp MCLK &mkp RCLK
                         >;
                 };
